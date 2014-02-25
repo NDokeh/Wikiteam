@@ -1,6 +1,10 @@
 #This is a cron file for wiki archival. Work in progress
 
 #step one uploadedwikis.txt
+0 0 0 0 uploadedwikis.txt
 #step two wget [insert website here] --resume
-#step three gzip 
+0 0 0 0 wget [insert website here] --resume
+#step three gzip
+0 0 0 0 gzip
 #step four uploader.py
+0 0 0 0 uploader.py

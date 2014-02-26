@@ -4,7 +4,7 @@
 0 0 0 0 0 uploadedwikis.txt
 #step two wget [insert website here] --resume
 0 0 0 0 0 wget [insert website here] --resume
-#step three gzip
-0 0 0 0 0 gzip
+#step three 7zip a [name of archive file] [name of folder to compress]
+0 0 0 0 0 7z a [name of archive file] [name of folder to compress]
 #step four uploader.py
 0 0 0 0 0 uploader.py
